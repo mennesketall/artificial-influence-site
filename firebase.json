@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "site": "artificial-influence",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "build.py",
+      "scale-data.json"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": true
+  }
+}

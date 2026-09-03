@@ -1,0 +1,57 @@
+[
+  {
+    "level": 0,
+    "label": "All human",
+    "summary": "The work was created directly by a person, without AI shaping the output."
+  },
+  {
+    "level": 1,
+    "label": "Human-led",
+    "summary": "A person created the work and used AI only around the edges, without shaping the final substance."
+  },
+  {
+    "level": 2,
+    "label": "Human-directed",
+    "summary": "A person led the work; AI helped with limited supporting tasks."
+  },
+  {
+    "level": 3,
+    "label": "Human-shaped",
+    "summary": "A person substantially shaped AI-assisted material into the final work."
+  },
+  {
+    "level": 4,
+    "label": "Mixed creation",
+    "summary": "Human-created and AI-created parts were combined and reviewed as one work."
+  },
+  {
+    "level": 5,
+    "label": "AI-assisted",
+    "summary": "AI contributed meaningfully while a person directed and revised the result."
+  },
+  {
+    "level": 6,
+    "label": "AI-guided",
+    "summary": "AI produced a starting point or substantial material that a person directed and developed."
+  },
+  {
+    "level": 7,
+    "label": "AI-shaped",
+    "summary": "AI produced much of the material; a person made significant changes and decisions."
+  },
+  {
+    "level": 8,
+    "label": "AI-produced",
+    "summary": "AI produced the work with human direction limited to prompts, selection, or light revision."
+  },
+  {
+    "level": 9,
+    "label": "Mostly AI",
+    "summary": "AI produced nearly all of the work; human involvement was limited."
+  },
+  {
+    "level": 10,
+    "label": "All AI",
+    "summary": "The work was produced entirely by AI, with no meaningful human shaping of the output."
+  }
+]
