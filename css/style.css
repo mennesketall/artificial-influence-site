@@ -1517,3 +1517,16 @@ a:hover { text-decoration: underline; }
 .hq-site-attestation .hq-embed-badge {
   max-width: 100%;
 }
+
+/* Paired scale comparison */
+.scale-pair { display:grid; grid-template-columns:1fr 1fr; gap:32px; margin-top:24px; }
+.scale-side { border:1px solid var(--border); padding:24px; }
+.scale-side-heading { display:flex; align-items:center; gap:12px; margin-bottom:20px; }
+.scale-side-heading h3 { font-size:1.05rem; margin:0; }
+.scale-side .scale-list { margin:0; }
+.scale-side .scale-item { gap:12px; padding:13px 0; }
+.scale-side .scale-number { font-size:1rem; min-width:28px; }
+.scale-side .scale-label { font-size:.95rem; }
+.scale-side .scale-summary { font-size:.8rem; }
+.pair-note { color:var(--fg-secondary); font-size:.9rem; margin-top:24px; }
+@media (max-width:600px) { .scale-pair { grid-template-columns:1fr; gap:20px; } .scale-side { padding:20px; } }
